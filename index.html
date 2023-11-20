@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio Website</title>
+
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="head">
+      <p>Alan Tanadi</p>
+      <nav>
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#keahlian">Keahlian</a></li>
+          <li><a href="#project">Project</a></li>
+        </ul>
+      </nav>
+      <div>
+        <a href="#contact"
+          ><i class="far fa-envelope fa-beat fa-xl" style="color: #ff0505"></i
+        ></a>
+      </div>
+    </header>
+
+    <main>
+      <div id="content">
+        <article id="tentang">
+          <h2>Tentang saya</h2>
+          <div class="tentang-content">
+            <p>
+              Halo, Perkenalkan nama saya <span>Alan Tanadi</span>. Saat ini
+              saya sedang belajar untuk menjadi seorang Frontend Developer
+            </p>
+            <img src="assets/image/profile.png" alt="" />
+          </div>
+        </article>
+        <article id="keahlian">
+          <h2>Keahlian</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <img src="assets/image/html.svg" alt="" class="skill-image" />
+              <div class="skill-text">HTML</div>
+            </div>
+            <div class="skill-item">
+              <img src="assets/image/css.svg" alt="" class="skill-image" />
+              <div class="skill-text">CSS</div>
+            </div>
+            <div class="skill-item">
+              <img src="assets/image/js.svg" alt="" class="skill-image" />
+              <div class="skill-text">JavaScript</div>
+            </div>
+            <div class="skill-item">
+              <img src="assets/image/node.svg" alt="" class="skill-image" />
+              <div class="skill-text">Node</div>
+            </div>
+            <div class="skill-item">
+              <img src="assets/image/react.svg" alt="" class="skill-image" />
+              <div class="skill-text">React</div>
+            </div>
+          </div>
+        </article>
+        <article id="project">
+          <h2>Project</h2>
+          <section>
+            <div class="project-list">
+              <img src="assets/image/facebook.svg" alt="" />
+              <p>
+                Facebook adalah situs web jaringan sosial yang diluncurkan pada
+                4 Februari 2004 dan didirikan oleh Mark Zuckerberg, seorang
+                lulusan Harvard dan mantan murid Ardsley High School.
+                Keanggotaannya pada awalnya dibatasi untuk siswa dari Harvard
+                College.
+              </p>
+            </div>
+          </section>
+          <section>
+            <div class="project-list">
+              <img src="assets/image/netflix.svg" alt="" />
+              <p>
+                Netflix, Inc. adalah salah satu penyedia layanan pengaliran
+                (streaming) media digital, berkantor pusat di Los Gatos,
+                California. yang didirikan pada tahun 1997 oleh Reed Hasting dan
+                Marc Randolph di Scotts Valley, California.
+              </p>
+            </div>
+          </section>
+          <section>
+            <div class="project-list">
+              <img src="assets/image/google.svg" alt="" />
+              <p>
+                Google didirikan oleh Larry Page dan Sergey Brin saat masih
+                mahasiswa Ph.D. di Universitas Stanford. Mereka berdua memegang
+                16 persen saham perusahaan. Mereka menjadikan Google sebagai
+                perusahaan swasta pada tanggal 4 September 1998.
+              </p>
+            </div>
+          </section>
+        </article>
+      </div>
+
+      <aside>
+        <article>
+          <header id="contact">
+            <img src="assets/image/contact.webp" alt="" />
+            <h2>Hubungi Saya</h2>
+            <form>
+              <div>
+                <label>Nama</label>
+                <input type="text" placeholder="John Doe" required />
+              </div>
+              <div>
+                <label>Email</label>
+                <input type="email" placeholder="johndoe@gmail.com" required />
+              </div>
+              <div>
+                <label>Subjek</label>
+                <textarea placeholder="Tuliskan sesuatu"></textarea>
+              </div>
+              <button>Kirimkan</button>
+            </form>
+          </header>
+          <section>
+            <div class="social-media">
+              <ul>
+                <li>
+                  <a href="https://www.youtube.com/@lecodingdev" target="_blank"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/alan-tanadi/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/alantanadi/"
+                    target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://github.com/lecodingdev" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </article>
+      </aside>
+    </main>
+
+    <footer><span>HTML Profile</span> &#169; 2023, Alan Tanadi</footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
